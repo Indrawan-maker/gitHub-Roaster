@@ -13,10 +13,9 @@ async function fetchData(){
     // console.log(JSON.stringify(result, null, 2));
 }
 fetchData()
-
 function RandomQuote() {
     const hasil = [];
-
+    
     while(hasil.length < 3) {
         const random = Math.floor(Math.random() * result.length)
         const item = result[random]
